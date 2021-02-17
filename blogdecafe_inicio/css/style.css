@@ -2,7 +2,21 @@
 	font-family: Cormorant;
 	src:url(Fuente/CormorantGaramond-Light.ttf);
 }*/
-
+/*
+@font-face {
+	font-family: Dancing;
+	src:url(Fuente/DancingScript-Regular.ttf);
+}*/
+/*
+@font-face {
+	font-family: Garamond;
+	src:url(Fuente/EBGaramond-Regular.ttf);
+}*/
+/*
+@font-face {
+	font-family: Literata;
+	src:url(Fuente/Literata_7pt-ExtraLight.ttf);
+}*/
 @font-face {
   font-family: 'Cormorant';
   font-style: normal;
@@ -11,18 +25,29 @@
   src: url(https://fonts.gstatic.com/s/cormorantgaramond/v9/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQAllfvg-I.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
-
 @font-face {
-	font-family: Dancing;
-	src:url(Fuente/DancingScript-Regular.ttf);
+  font-family: 'Dancing';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dancingscript/v16/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSo3Sup8.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 @font-face {
-	font-family: Garamond;
-	src:url(Fuente/EBGaramond-Regular.ttf);
+  font-family: 'Garamond';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/ebgaramond/v15/SlGDmQSNjdsmc35JDF1K5E55YMjF_7DPuGi-6_RkBI9_.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 @font-face {
-	font-family: Literata;
-	src:url(Fuente/Literata_7pt-ExtraLight.ttf);
+  font-family: 'Literata';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/literata/v19/or3PQ6P12-iJxAIgLa78DkrbXsDgk0oVDaDPYLanFLHpPf2TbE-_J_HWTA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
 html {
@@ -260,6 +285,7 @@ img {
 
 .campo_field_textarea {
 	grid-row: 2 / 3;
+	resize: 0;
 }
 
 .enviar {
